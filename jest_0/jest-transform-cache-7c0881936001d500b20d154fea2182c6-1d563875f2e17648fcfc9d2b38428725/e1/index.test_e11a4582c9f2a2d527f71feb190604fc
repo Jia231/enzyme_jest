@@ -1,0 +1,7 @@
+104ba225970dd6e9ee769a6b0399bfd8
+"use strict";
+
+var _interopRequireDefault = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _index = _interopRequireDefault(require("./index"));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LnRlc3QuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7OztBQUFBIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IENPUlJFQ1RfR1VFU1MgZnJvbSAnLi9pbmRleCc7Il19

@@ -1,0 +1,19 @@
+5635fe86110e696a8234534ecc4a788a
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.correctGuess = correctGuess;
+exports.actionTypes = void 0;
+const actionTypes = {
+  CORRECT_GUESS: 'CORRECT_GUESS'
+};
+exports.actionTypes = actionTypes;
+
+function correctGuess() {
+  return {
+    type: actionTypes.CORRECT_GUESS
+  };
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImFjdGlvblR5cGVzIiwiQ09SUkVDVF9HVUVTUyIsImNvcnJlY3RHdWVzcyIsInR5cGUiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFBTyxNQUFNQSxXQUFXLEdBQUc7QUFDdkJDLEVBQUFBLGFBQWEsRUFBRTtBQURRLENBQXBCOzs7QUFJQSxTQUFTQyxZQUFULEdBQXdCO0FBQzNCLFNBQU87QUFBRUMsSUFBQUEsSUFBSSxFQUFFSCxXQUFXLENBQUNDO0FBQXBCLEdBQVA7QUFDSCIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBhY3Rpb25UeXBlcyA9IHtcbiAgICBDT1JSRUNUX0dVRVNTOiAnQ09SUkVDVF9HVUVTUydcbn1cblxuZXhwb3J0IGZ1bmN0aW9uIGNvcnJlY3RHdWVzcygpIHtcbiAgICByZXR1cm4geyB0eXBlOiBhY3Rpb25UeXBlcy5DT1JSRUNUX0dVRVNTIH07XG59Il19

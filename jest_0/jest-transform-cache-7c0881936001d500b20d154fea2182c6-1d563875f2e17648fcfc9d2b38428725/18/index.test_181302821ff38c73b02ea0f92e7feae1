@@ -1,0 +1,11 @@
+75a29a8132e38c0044123579260e3064
+"use strict";
+
+var _index = require("./index");
+
+describe('correctGuess', () => {
+  test('should retun an action with CORRECT_GUESS', () => {
+    const action = (0, _index.correctGuess)();
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LnRlc3QuanMiXSwibmFtZXMiOlsiZGVzY3JpYmUiLCJ0ZXN0IiwiYWN0aW9uIl0sIm1hcHBpbmdzIjoiOztBQUFBOztBQUVBQSxRQUFRLENBQUMsY0FBRCxFQUFpQixNQUFNO0FBQzNCQyxFQUFBQSxJQUFJLENBQUMsMkNBQUQsRUFBOEMsTUFBTTtBQUNwRCxVQUFNQyxNQUFNLEdBQUcsMEJBQWY7QUFDSCxHQUZHLENBQUo7QUFJSCxDQUxPLENBQVIiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBjb3JyZWN0R3Vlc3MgfSBmcm9tICcuL2luZGV4JztcblxuZGVzY3JpYmUoJ2NvcnJlY3RHdWVzcycsICgpID0+IHtcbiAgICB0ZXN0KCdzaG91bGQgcmV0dW4gYW4gYWN0aW9uIHdpdGggQ09SUkVDVF9HVUVTUycsICgpID0+IHtcbiAgICAgICAgY29uc3QgYWN0aW9uID0gY29ycmVjdEd1ZXNzKCk7XG4gICAgfSlcblxufSkiXX0=

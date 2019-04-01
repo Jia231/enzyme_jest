@@ -1,0 +1,9 @@
+f54797ae7366a296a734e9eead6228c1
+"use strict";
+
+var _index = require("./index");
+
+describe('correctGuess', () => {
+  test('should retun an action with CORRECT_GUESS', () => {});
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LnRlc3QuanMiXSwibmFtZXMiOlsiZGVzY3JpYmUiLCJ0ZXN0Il0sIm1hcHBpbmdzIjoiOztBQUFBOztBQUVBQSxRQUFRLENBQUMsY0FBRCxFQUFpQixNQUFNO0FBQzNCQyxFQUFBQSxJQUFJLENBQUMsMkNBQUQsRUFBOEMsTUFBTSxDQUV2RCxDQUZHLENBQUo7QUFJSCxDQUxPLENBQVIiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBjb3JyZWN0R3Vlc3MgfSBmcm9tICcuL2luZGV4JztcblxuZGVzY3JpYmUoJ2NvcnJlY3RHdWVzcycsICgpID0+IHtcbiAgICB0ZXN0KCdzaG91bGQgcmV0dW4gYW4gYWN0aW9uIHdpdGggQ09SUkVDVF9HVUVTUycsICgpID0+IHtcblxuICAgIH0pXG5cbn0pIl19
