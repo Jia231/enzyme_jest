@@ -1,0 +1,25 @@
+67ddf977dbdd5144859278c2a68b3a8e
+"use strict";
+
+var _interopRequireDefault = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.checkProps = exports.findByTestAtr = void 0;
+
+var _checkPropTypes = _interopRequireDefault(require("check-prop-types"));
+
+const findByTestAtr = (wrapper, val) => {
+  return wrapper.find(`[data-test="${val}"]`);
+};
+
+exports.findByTestAtr = findByTestAtr;
+
+const checkProps = (expectedProps, component) => {
+  const errorProps = (0, _checkPropTypes.default)(component.propTypes, expectedProps, 'prop', component.name);
+  expect(errorProps).toBeUndefined();
+};
+
+exports.checkProps = checkProps;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlc3RVdGlsLmpzIl0sIm5hbWVzIjpbImZpbmRCeVRlc3RBdHIiLCJ3cmFwcGVyIiwidmFsIiwiZmluZCIsImNoZWNrUHJvcHMiLCJleHBlY3RlZFByb3BzIiwiY29tcG9uZW50IiwiZXJyb3JQcm9wcyIsInByb3BUeXBlcyIsIm5hbWUiLCJleHBlY3QiLCJ0b0JlVW5kZWZpbmVkIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBQTs7QUFFTyxNQUFNQSxhQUFhLEdBQUcsQ0FBQ0MsT0FBRCxFQUFVQyxHQUFWLEtBQWtCO0FBQzNDLFNBQU9ELE9BQU8sQ0FBQ0UsSUFBUixDQUFjLGVBQWNELEdBQUksSUFBaEMsQ0FBUDtBQUNILENBRk07Ozs7QUFLQSxNQUFNRSxVQUFVLEdBQUcsQ0FBQ0MsYUFBRCxFQUFnQkMsU0FBaEIsS0FBOEI7QUFDcEQsUUFBTUMsVUFBVSxHQUFHLDZCQUFlRCxTQUFTLENBQUNFLFNBQXpCLEVBQW9DSCxhQUFwQyxFQUFtRCxNQUFuRCxFQUEyREMsU0FBUyxDQUFDRyxJQUFyRSxDQUFuQjtBQUVBQyxFQUFBQSxNQUFNLENBQUNILFVBQUQsQ0FBTixDQUFtQkksYUFBbkI7QUFDSCxDQUpNIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGNoZWNrUHJvcFR5cGVzIGZyb20gJ2NoZWNrLXByb3AtdHlwZXMnO1xuXG5leHBvcnQgY29uc3QgZmluZEJ5VGVzdEF0ciA9ICh3cmFwcGVyLCB2YWwpID0+IHtcbiAgICByZXR1cm4gd3JhcHBlci5maW5kKGBbZGF0YS10ZXN0PVwiJHt2YWx9XCJdYCk7XG59XG5cblxuZXhwb3J0IGNvbnN0IGNoZWNrUHJvcHMgPSAoZXhwZWN0ZWRQcm9wcywgY29tcG9uZW50KSA9PiB7XG4gICAgY29uc3QgZXJyb3JQcm9wcyA9IGNoZWNrUHJvcFR5cGVzKGNvbXBvbmVudC5wcm9wVHlwZXMsIGV4cGVjdGVkUHJvcHMsICdwcm9wJywgY29tcG9uZW50Lm5hbWUpXG5cbiAgICBleHBlY3QoZXJyb3JQcm9wcykudG9CZVVuZGVmaW5lZCgpO1xufSJdfQ==

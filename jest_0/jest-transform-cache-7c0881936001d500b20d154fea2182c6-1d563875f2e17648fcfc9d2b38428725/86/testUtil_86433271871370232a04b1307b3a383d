@@ -1,0 +1,20 @@
+e829e083bad0f41e537aebf612dd459f
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.checkProps = exports.findByTestAtr = void 0;
+
+const findByTestAtr = (wrapper, val) => {
+  return wrapper.find(`[data-test="${val}"]`);
+};
+
+exports.findByTestAtr = findByTestAtr;
+
+const checkProps = (expectedProps, component) => {
+  const errorProps = checkPropTypes(component.propTypes, expectedProps, 'prop', component.name);
+};
+
+exports.checkProps = checkProps;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlc3RVdGlsLmpzIl0sIm5hbWVzIjpbImZpbmRCeVRlc3RBdHIiLCJ3cmFwcGVyIiwidmFsIiwiZmluZCIsImNoZWNrUHJvcHMiLCJleHBlY3RlZFByb3BzIiwiY29tcG9uZW50IiwiZXJyb3JQcm9wcyIsImNoZWNrUHJvcFR5cGVzIiwicHJvcFR5cGVzIiwibmFtZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFPLE1BQU1BLGFBQWEsR0FBRyxDQUFDQyxPQUFELEVBQVVDLEdBQVYsS0FBa0I7QUFDM0MsU0FBT0QsT0FBTyxDQUFDRSxJQUFSLENBQWMsZUFBY0QsR0FBSSxJQUFoQyxDQUFQO0FBQ0gsQ0FGTTs7OztBQUtBLE1BQU1FLFVBQVUsR0FBRyxDQUFDQyxhQUFELEVBQWdCQyxTQUFoQixLQUE4QjtBQUNwRCxRQUFNQyxVQUFVLEdBQUdDLGNBQWMsQ0FBQ0YsU0FBUyxDQUFDRyxTQUFYLEVBQXNCSixhQUF0QixFQUFxQyxNQUFyQyxFQUE2Q0MsU0FBUyxDQUFDSSxJQUF2RCxDQUFqQztBQUNILENBRk0iLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgZmluZEJ5VGVzdEF0ciA9ICh3cmFwcGVyLCB2YWwpID0+IHtcbiAgICByZXR1cm4gd3JhcHBlci5maW5kKGBbZGF0YS10ZXN0PVwiJHt2YWx9XCJdYCk7XG59XG5cblxuZXhwb3J0IGNvbnN0IGNoZWNrUHJvcHMgPSAoZXhwZWN0ZWRQcm9wcywgY29tcG9uZW50KSA9PiB7XG4gICAgY29uc3QgZXJyb3JQcm9wcyA9IGNoZWNrUHJvcFR5cGVzKGNvbXBvbmVudC5wcm9wVHlwZXMsIGV4cGVjdGVkUHJvcHMsICdwcm9wJywgY29tcG9uZW50Lm5hbWUpXG59Il19
