@@ -1,0 +1,73 @@
+9adc3bf00d5fb1a06ad2c2efc793050a
+"use strict";
+
+var _interopRequireWildcard = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+
+var _interopRequireDefault = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _logo = _interopRequireDefault(require("./logo.svg"));
+
+require("./App.css");
+
+var _jsxFileName = "/home/jia/Desktop/tests/src/App.js";
+
+class App extends _react.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      counter: 0,
+      showError: none
+    };
+  }
+
+  render() {
+    const styles = {
+      display: this.state.showError
+    };
+    return _react.default.createElement("div", {
+      "data-test": "component-App",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: this
+    }, _react.default.createElement("h1", {
+      "data-test": "counter-display",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, "The counter is ", this.state.counter), _react.default.createElement("h3", {
+      "data-test": "error-component",
+      style: styles,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: this
+    }, "The counter can not go  below 0."), _react.default.createElement("button", {
+      "data-test": "increment",
+      onClick: () => this.setState({
+        counter: this.state.counter + 1
+      }),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: this
+    }, "Increment"));
+  }
+
+}
+
+var _default = App;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC5qcyJdLCJuYW1lcyI6WyJBcHAiLCJDb21wb25lbnQiLCJjb25zdHJ1Y3RvciIsInByb3BzIiwic3RhdGUiLCJjb3VudGVyIiwic2hvd0Vycm9yIiwibm9uZSIsInJlbmRlciIsInN0eWxlcyIsImRpc3BsYXkiLCJzZXRTdGF0ZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQTs7QUFDQTs7QUFDQTs7OztBQUVBLE1BQU1BLEdBQU4sU0FBa0JDLGdCQUFsQixDQUE0QjtBQUMxQkMsRUFBQUEsV0FBVyxDQUFDQyxLQUFELEVBQU87QUFDaEIsVUFBTUEsS0FBTjtBQUVBLFNBQUtDLEtBQUwsR0FBVztBQUNUQyxNQUFBQSxPQUFPLEVBQUMsQ0FEQztBQUVUQyxNQUFBQSxTQUFTLEVBQUdDO0FBRkgsS0FBWDtBQUlEOztBQUNEQyxFQUFBQSxNQUFNLEdBQUc7QUFDUCxVQUFNQyxNQUFNLEdBQUc7QUFDYkMsTUFBQUEsT0FBTyxFQUFDLEtBQUtOLEtBQUwsQ0FBV0U7QUFETixLQUFmO0FBR0EsV0FDRTtBQUFLLG1CQUFVLGVBQWY7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsT0FDQTtBQUFJLG1CQUFVLGlCQUFkO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLDBCQUFnRCxLQUFLRixLQUFMLENBQVdDLE9BQTNELENBREEsRUFFQTtBQUFJLG1CQUFVLGlCQUFkO0FBQWdDLE1BQUEsS0FBSyxFQUFFSSxNQUF2QztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSwwQ0FGQSxFQUdFO0FBQVEsbUJBQVUsV0FBbEI7QUFBOEIsTUFBQSxPQUFPLEVBQUUsTUFBSSxLQUFLRSxRQUFMLENBQWM7QUFBQ04sUUFBQUEsT0FBTyxFQUFDLEtBQUtELEtBQUwsQ0FBV0MsT0FBWCxHQUFtQjtBQUE1QixPQUFkLENBQTNDO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLG1CQUhGLENBREY7QUFPRDs7QUFwQnlCOztlQXVCYkwsRyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyBDb21wb25lbnQgfSBmcm9tICdyZWFjdCc7XG5pbXBvcnQgbG9nbyBmcm9tICcuL2xvZ28uc3ZnJztcbmltcG9ydCAnLi9BcHAuY3NzJztcblxuY2xhc3MgQXBwIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpe1xuICAgIHN1cGVyKHByb3BzKVxuXG4gICAgdGhpcy5zdGF0ZT17XG4gICAgICBjb3VudGVyOjAsXG4gICAgICBzaG93RXJyb3IgOiBub25lXG4gICAgfVxuICB9XG4gIHJlbmRlcigpIHtcbiAgICBjb25zdCBzdHlsZXMgPSB7XG4gICAgICBkaXNwbGF5OnRoaXMuc3RhdGUuc2hvd0Vycm9yXG4gICAgfVxuICAgIHJldHVybiAoXG4gICAgICA8ZGl2IGRhdGEtdGVzdD1cImNvbXBvbmVudC1BcHBcIj5cbiAgICAgIDxoMSBkYXRhLXRlc3Q9XCJjb3VudGVyLWRpc3BsYXlcIj5UaGUgY291bnRlciBpcyB7dGhpcy5zdGF0ZS5jb3VudGVyfTwvaDE+XG4gICAgICA8aDMgZGF0YS10ZXN0PVwiZXJyb3ItY29tcG9uZW50XCIgc3R5bGU9e3N0eWxlc30+VGhlIGNvdW50ZXIgY2FuIG5vdCBnbyAgYmVsb3cgMC48L2gzPlxuICAgICAgICA8YnV0dG9uIGRhdGEtdGVzdD1cImluY3JlbWVudFwiIG9uQ2xpY2s9eygpPT50aGlzLnNldFN0YXRlKHtjb3VudGVyOnRoaXMuc3RhdGUuY291bnRlcisxfSl9PkluY3JlbWVudDwvYnV0dG9uPlxuICAgICAgPC9kaXY+XG4gICAgKTtcbiAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBBcHA7XG4iXX0=

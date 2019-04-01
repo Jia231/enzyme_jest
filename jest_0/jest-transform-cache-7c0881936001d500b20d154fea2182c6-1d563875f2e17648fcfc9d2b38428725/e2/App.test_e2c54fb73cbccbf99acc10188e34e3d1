@@ -1,0 +1,24 @@
+e64a990547ee485772351b4ea8c93041
+"use strict";
+
+var _interopRequireWildcard = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+
+var _interopRequireDefault = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _react = _interopRequireDefault(require("react"));
+
+var _enzyme = _interopRequireWildcard(require("enzyme"));
+
+var _enzymeAdapterReact = _interopRequireDefault(require("enzyme-adapter-react-16"));
+
+var _App = _interopRequireDefault(require("./App"));
+
+_enzyme.default.configure({
+  adapter: new _enzymeAdapterReact.default()
+});
+
+test('it should render without any errors', () => {});
+test('it should render a button', () => {});
+test('state should start at 0', () => {});
+test('after button clicking state should increment by 1', () => {});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC50ZXN0LmpzIl0sIm5hbWVzIjpbIkVuenltZSIsImNvbmZpZ3VyZSIsImFkYXB0ZXIiLCJFbnp5bWVBZGFwdGVyIiwidGVzdCJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7O0FBQ0E7O0FBQ0E7O0FBR0E7O0FBRUFBLGdCQUFPQyxTQUFQLENBQWlCO0FBQUNDLEVBQUFBLE9BQU8sRUFBQyxJQUFJQywyQkFBSjtBQUFULENBQWpCOztBQUVBQyxJQUFJLENBQUMscUNBQUQsRUFBdUMsTUFBSSxDQUU5QyxDQUZHLENBQUo7QUFJQUEsSUFBSSxDQUFDLDJCQUFELEVBQTZCLE1BQUksQ0FFcEMsQ0FGRyxDQUFKO0FBSUFBLElBQUksQ0FBQyx5QkFBRCxFQUEyQixNQUFJLENBRWxDLENBRkcsQ0FBSjtBQU1BQSxJQUFJLENBQUMsbURBQUQsRUFBcUQsTUFBSSxDQUU1RCxDQUZHLENBQUoiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IEVuenltZSwge3NoYWxsb3d9IGZyb20gXCJlbnp5bWVcIjtcbmltcG9ydCBFbnp5bWVBZGFwdGVyIGZyb20gXCJlbnp5bWUtYWRhcHRlci1yZWFjdC0xNlwiO1xuXG5cbmltcG9ydCBBcHAgZnJvbSAnLi9BcHAnO1xuXG5Fbnp5bWUuY29uZmlndXJlKHthZGFwdGVyOm5ldyBFbnp5bWVBZGFwdGVyKCl9KVxuXG50ZXN0KCdpdCBzaG91bGQgcmVuZGVyIHdpdGhvdXQgYW55IGVycm9ycycsKCk9PntcblxufSlcblxudGVzdCgnaXQgc2hvdWxkIHJlbmRlciBhIGJ1dHRvbicsKCk9PntcblxufSlcblxudGVzdCgnc3RhdGUgc2hvdWxkIHN0YXJ0IGF0IDAnLCgpPT57XG5cbn0pXG5cblxuXG50ZXN0KCdhZnRlciBidXR0b24gY2xpY2tpbmcgc3RhdGUgc2hvdWxkIGluY3JlbWVudCBieSAxJywoKT0+e1xuICBcbn0pXG4iXX0=

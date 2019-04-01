@@ -1,0 +1,70 @@
+91fdd73db3185b30f40a0d17b61b4893
+"use strict";
+
+var _interopRequireDefault = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+
+var _react = _interopRequireDefault(require("react"));
+
+var _enzyme = _interopRequireWildcard(require("enzyme"));
+
+var _enzymeAdapterReact = _interopRequireDefault(require("enzyme-adapter-react-16"));
+
+var _App = _interopRequireDefault(require("./App"));
+
+var _types = require("@babel/types");
+
+var _module = require("module");
+
+var _jsxFileName = "/home/jia/Desktop/tests/src/App.test.js";
+
+_enzyme.default.configure({
+  adapter: new _enzymeAdapterReact.default()
+});
+
+test('it should render without any errors', () => {
+  const wrapper = (0, _enzyme.shallow)(_react.default.createElement(_App.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: void 0
+  }));
+  const appComponent = wrapper.find(`[data-test="component-App"]`);
+  expect(appComponent.length).toBe(1);
+});
+test('it should render a button', () => {
+  const wrapper = (0, _enzyme.shallow)(_react.default.createElement(_App.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: void 0
+  }));
+  const buttonComponent = wrapper.find(`[data-test="increment"]`);
+  expect(buttonComponent.length).toBe(1);
+});
+test('counter display should be displayed', () => {
+  const wrapper = (0, _enzyme.shallow)(_react.default.createElement(_App.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: void 0
+  }));
+  const counterDisplay = wrapper.find(`[data-test="counter-display"]`);
+});
+test('state should start at 0', () => {
+  const wrapper = (0, _enzyme.shallow)(_react.default.createElement(_App.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: void 0
+  }));
+  const initialState = wrapper.state('counter');
+  expect(initialState).toBe(0);
+});
+test('after button clicking state should increment by 1', () => {});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC50ZXN0LmpzIl0sIm5hbWVzIjpbIkVuenltZSIsImNvbmZpZ3VyZSIsImFkYXB0ZXIiLCJFbnp5bWVBZGFwdGVyIiwidGVzdCIsIndyYXBwZXIiLCJhcHBDb21wb25lbnQiLCJmaW5kIiwiZXhwZWN0IiwibGVuZ3RoIiwidG9CZSIsImJ1dHRvbkNvbXBvbmVudCIsImNvdW50ZXJEaXNwbGF5IiwiaW5pdGlhbFN0YXRlIiwic3RhdGUiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBOztBQUNBOztBQUNBOztBQUdBOztBQUNBOztBQUNBOzs7O0FBRUFBLGdCQUFPQyxTQUFQLENBQWlCO0FBQUNDLEVBQUFBLE9BQU8sRUFBQyxJQUFJQywyQkFBSjtBQUFULENBQWpCOztBQUVBQyxJQUFJLENBQUMscUNBQUQsRUFBdUMsTUFBSTtBQUM3QyxRQUFNQyxPQUFPLEdBQUcscUJBQVEsNkJBQUMsWUFBRDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxJQUFSLENBQWhCO0FBQ0EsUUFBTUMsWUFBWSxHQUFHRCxPQUFPLENBQUNFLElBQVIsQ0FBYyw2QkFBZCxDQUFyQjtBQUVBQyxFQUFBQSxNQUFNLENBQUNGLFlBQVksQ0FBQ0csTUFBZCxDQUFOLENBQTRCQyxJQUE1QixDQUFpQyxDQUFqQztBQUNELENBTEcsQ0FBSjtBQU9BTixJQUFJLENBQUMsMkJBQUQsRUFBNkIsTUFBSTtBQUNuQyxRQUFNQyxPQUFPLEdBQUcscUJBQVEsNkJBQUMsWUFBRDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxJQUFSLENBQWhCO0FBQ0EsUUFBTU0sZUFBZSxHQUFHTixPQUFPLENBQUNFLElBQVIsQ0FBYyx5QkFBZCxDQUF4QjtBQUNBQyxFQUFBQSxNQUFNLENBQUNHLGVBQWUsQ0FBQ0YsTUFBakIsQ0FBTixDQUErQkMsSUFBL0IsQ0FBb0MsQ0FBcEM7QUFDRCxDQUpHLENBQUo7QUFNQU4sSUFBSSxDQUFDLHFDQUFELEVBQXVDLE1BQUk7QUFDN0MsUUFBTUMsT0FBTyxHQUFHLHFCQUFRLDZCQUFDLFlBQUQ7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsSUFBUixDQUFoQjtBQUNBLFFBQU1PLGNBQWMsR0FBR1AsT0FBTyxDQUFDRSxJQUFSLENBQWMsK0JBQWQsQ0FBdkI7QUFDRCxDQUhHLENBQUo7QUFLQUgsSUFBSSxDQUFDLHlCQUFELEVBQTJCLE1BQUk7QUFDbEMsUUFBTUMsT0FBTyxHQUFHLHFCQUFRLDZCQUFDLFlBQUQ7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsSUFBUixDQUFoQjtBQUNBLFFBQU1RLFlBQVksR0FBR1IsT0FBTyxDQUFDUyxLQUFSLENBQWMsU0FBZCxDQUFyQjtBQUVBTixFQUFBQSxNQUFNLENBQUNLLFlBQUQsQ0FBTixDQUFxQkgsSUFBckIsQ0FBMEIsQ0FBMUI7QUFDQSxDQUxHLENBQUo7QUFTQU4sSUFBSSxDQUFDLG1EQUFELEVBQXFELE1BQUksQ0FFNUQsQ0FGRyxDQUFKIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBFbnp5bWUsIHtzaGFsbG93fSBmcm9tIFwiZW56eW1lXCI7XG5pbXBvcnQgRW56eW1lQWRhcHRlciBmcm9tIFwiZW56eW1lLWFkYXB0ZXItcmVhY3QtMTZcIjtcblxuXG5pbXBvcnQgQXBwIGZyb20gJy4vQXBwJztcbmltcG9ydCB7IGV4cG9ydEFsbERlY2xhcmF0aW9uIH0gZnJvbSAnQGJhYmVsL3R5cGVzJztcbmltcG9ydCB7IHdyYXAgfSBmcm9tICdtb2R1bGUnO1xuXG5Fbnp5bWUuY29uZmlndXJlKHthZGFwdGVyOm5ldyBFbnp5bWVBZGFwdGVyKCl9KVxuXG50ZXN0KCdpdCBzaG91bGQgcmVuZGVyIHdpdGhvdXQgYW55IGVycm9ycycsKCk9PntcbiAgY29uc3Qgd3JhcHBlciA9IHNoYWxsb3coPEFwcC8+KVxuICBjb25zdCBhcHBDb21wb25lbnQgPSB3cmFwcGVyLmZpbmQoYFtkYXRhLXRlc3Q9XCJjb21wb25lbnQtQXBwXCJdYCk7XG5cbiAgZXhwZWN0KGFwcENvbXBvbmVudC5sZW5ndGgpLnRvQmUoMSlcbn0pXG5cbnRlc3QoJ2l0IHNob3VsZCByZW5kZXIgYSBidXR0b24nLCgpPT57XG4gIGNvbnN0IHdyYXBwZXIgPSBzaGFsbG93KDxBcHAvPilcbiAgY29uc3QgYnV0dG9uQ29tcG9uZW50ID0gd3JhcHBlci5maW5kKGBbZGF0YS10ZXN0PVwiaW5jcmVtZW50XCJdYClcbiAgZXhwZWN0KGJ1dHRvbkNvbXBvbmVudC5sZW5ndGgpLnRvQmUoMSlcbn0pXG5cbnRlc3QoJ2NvdW50ZXIgZGlzcGxheSBzaG91bGQgYmUgZGlzcGxheWVkJywoKT0+e1xuICBjb25zdCB3cmFwcGVyID0gc2hhbGxvdyg8QXBwLz4pXG4gIGNvbnN0IGNvdW50ZXJEaXNwbGF5ID0gd3JhcHBlci5maW5kKGBbZGF0YS10ZXN0PVwiY291bnRlci1kaXNwbGF5XCJdYClcbn0pXG5cbnRlc3QoJ3N0YXRlIHNob3VsZCBzdGFydCBhdCAwJywoKT0+e1xuIGNvbnN0IHdyYXBwZXIgPSBzaGFsbG93KDxBcHAvPilcbiBjb25zdCBpbml0aWFsU3RhdGUgPSB3cmFwcGVyLnN0YXRlKCdjb3VudGVyJylcblxuIGV4cGVjdChpbml0aWFsU3RhdGUpLnRvQmUoMClcbn0pXG5cblxuXG50ZXN0KCdhZnRlciBidXR0b24gY2xpY2tpbmcgc3RhdGUgc2hvdWxkIGluY3JlbWVudCBieSAxJywoKT0+e1xuICBcbn0pXG4iXX0=

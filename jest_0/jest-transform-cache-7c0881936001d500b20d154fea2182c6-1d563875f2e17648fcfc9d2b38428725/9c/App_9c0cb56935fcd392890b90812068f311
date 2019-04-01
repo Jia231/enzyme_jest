@@ -1,0 +1,60 @@
+ec8e17af29e9b40a84eb0758bd3b2b9f
+"use strict";
+
+var _interopRequireWildcard = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+
+var _interopRequireDefault = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _logo = _interopRequireDefault(require("./logo.svg"));
+
+require("./App.css");
+
+var _jsxFileName = "/home/jia/Desktop/tests/src/App.js";
+
+class App extends _react.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      counter: 0
+    };
+  }
+
+  render() {
+    return _react.default.createElement("div", {
+      "data-test": "component-App",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      },
+      __self: this
+    }, _react.default.createElement("h1", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16
+      },
+      __self: this
+    }, "The counter is $", this.state.counter), _react.default.createElement("button", {
+      "data-test": "increment",
+      onClick: () => this.setState({
+        counter: counter + 1
+      }),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
+      },
+      __self: this
+    }, "Increment"));
+  }
+
+}
+
+var _default = App;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC5qcyJdLCJuYW1lcyI6WyJBcHAiLCJDb21wb25lbnQiLCJjb25zdHJ1Y3RvciIsInByb3BzIiwic3RhdGUiLCJjb3VudGVyIiwicmVuZGVyIiwic2V0U3RhdGUiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQUE7O0FBQ0E7O0FBQ0E7Ozs7QUFFQSxNQUFNQSxHQUFOLFNBQWtCQyxnQkFBbEIsQ0FBNEI7QUFDMUJDLEVBQUFBLFdBQVcsQ0FBQ0MsS0FBRCxFQUFPO0FBQ2hCLFVBQU1BLEtBQU47QUFFQSxTQUFLQyxLQUFMLEdBQVc7QUFDVEMsTUFBQUEsT0FBTyxFQUFDO0FBREMsS0FBWDtBQUdEOztBQUNEQyxFQUFBQSxNQUFNLEdBQUc7QUFDUCxXQUNFO0FBQUssbUJBQVUsZUFBZjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxPQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLDJCQUFxQixLQUFLRixLQUFMLENBQVdDLE9BQWhDLENBREEsRUFFRTtBQUFRLG1CQUFVLFdBQWxCO0FBQThCLE1BQUEsT0FBTyxFQUFFLE1BQUksS0FBS0UsUUFBTCxDQUFjO0FBQUNGLFFBQUFBLE9BQU8sRUFBQ0EsT0FBTyxHQUFDO0FBQWpCLE9BQWQsQ0FBM0M7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsbUJBRkYsQ0FERjtBQU1EOztBQWZ5Qjs7ZUFrQmJMLEciLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgQ29tcG9uZW50IH0gZnJvbSAncmVhY3QnO1xuaW1wb3J0IGxvZ28gZnJvbSAnLi9sb2dvLnN2Zyc7XG5pbXBvcnQgJy4vQXBwLmNzcyc7XG5cbmNsYXNzIEFwcCBleHRlbmRzIENvbXBvbmVudCB7XG4gIGNvbnN0cnVjdG9yKHByb3BzKXtcbiAgICBzdXBlcihwcm9wcylcblxuICAgIHRoaXMuc3RhdGU9e1xuICAgICAgY291bnRlcjowXG4gICAgfVxuICB9XG4gIHJlbmRlcigpIHtcbiAgICByZXR1cm4gKFxuICAgICAgPGRpdiBkYXRhLXRlc3Q9XCJjb21wb25lbnQtQXBwXCI+XG4gICAgICA8aDE+VGhlIGNvdW50ZXIgaXMgJHt0aGlzLnN0YXRlLmNvdW50ZXJ9PC9oMT5cbiAgICAgICAgPGJ1dHRvbiBkYXRhLXRlc3Q9XCJpbmNyZW1lbnRcIiBvbkNsaWNrPXsoKT0+dGhpcy5zZXRTdGF0ZSh7Y291bnRlcjpjb3VudGVyKzF9KX0+SW5jcmVtZW50PC9idXR0b24+XG4gICAgICA8L2Rpdj5cbiAgICApO1xuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IEFwcDtcbiJdfQ==

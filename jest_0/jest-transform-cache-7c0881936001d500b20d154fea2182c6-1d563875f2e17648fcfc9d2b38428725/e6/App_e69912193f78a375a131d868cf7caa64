@@ -1,0 +1,98 @@
+b72a5b094e85555d61e465a4b1acd37c
+"use strict";
+
+var _interopRequireDefault = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _objectSpread2 = _interopRequireDefault(require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/objectSpread"));
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _logo = _interopRequireDefault(require("./logo.svg"));
+
+require("./App.css");
+
+var _jsxFileName = "/home/jia/Desktop/tests/src/App.js";
+
+class App extends _react.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      counter: 0,
+      showError: 'none'
+    };
+    this.decrese = this.decrese.bind(this);
+  }
+
+  decrese() {
+    if (this.state.counter == 0) {
+      this.setState((0, _objectSpread2.default)({}, this.state, {
+        showError: "inline"
+      }));
+    } else {
+      this.setState((0, _objectSpread2.default)({}, this.state, {
+        showError: "none",
+        counter: this.state.counter - 1
+      }));
+    }
+  }
+
+  render() {
+    const styles = {
+      display: this.state.showError
+    };
+    return _react.default.createElement("div", {
+      "data-test": "component-App",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31
+      },
+      __self: this
+    }, _react.default.createElement("h1", {
+      "data-test": "counter-display",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32
+      },
+      __self: this
+    }, "The counter is ", this.state.counter), _react.default.createElement("h3", {
+      "data-test": "error-component",
+      style: styles,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33
+      },
+      __self: this
+    }, "The counter can not go  below 0."), _react.default.createElement("button", {
+      "data-test": "increment",
+      onClick: () => this.setState({
+        counter: this.state.counter + 1,
+        showError: 'none'
+      }),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34
+      },
+      __self: this
+    }, "Increment"), _react.default.createElement("button", {
+      "data-test": "decrement",
+      onClick: this.decrese,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35
+      },
+      __self: this
+    }, "Decrement"));
+  }
+
+}
+
+var _default = App;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC5qcyJdLCJuYW1lcyI6WyJBcHAiLCJDb21wb25lbnQiLCJjb25zdHJ1Y3RvciIsInByb3BzIiwic3RhdGUiLCJjb3VudGVyIiwic2hvd0Vycm9yIiwiZGVjcmVzZSIsImJpbmQiLCJzZXRTdGF0ZSIsInJlbmRlciIsInN0eWxlcyIsImRpc3BsYXkiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7QUFBQTs7QUFDQTs7QUFDQTs7OztBQUVBLE1BQU1BLEdBQU4sU0FBa0JDLGdCQUFsQixDQUE0QjtBQUMxQkMsRUFBQUEsV0FBVyxDQUFDQyxLQUFELEVBQU87QUFDaEIsVUFBTUEsS0FBTjtBQUVBLFNBQUtDLEtBQUwsR0FBVztBQUNUQyxNQUFBQSxPQUFPLEVBQUMsQ0FEQztBQUVUQyxNQUFBQSxTQUFTLEVBQUc7QUFGSCxLQUFYO0FBS0EsU0FBS0MsT0FBTCxHQUFlLEtBQUtBLE9BQUwsQ0FBYUMsSUFBYixDQUFrQixJQUFsQixDQUFmO0FBQ0Q7O0FBRURELEVBQUFBLE9BQU8sR0FBRTtBQUNQLFFBQUcsS0FBS0gsS0FBTCxDQUFXQyxPQUFYLElBQW9CLENBQXZCLEVBQXlCO0FBQ3ZCLFdBQUtJLFFBQUwsaUNBQWtCLEtBQUtMLEtBQXZCO0FBQTZCRSxRQUFBQSxTQUFTLEVBQUM7QUFBdkM7QUFDRCxLQUZELE1BR0k7QUFDRixXQUFLRyxRQUFMLGlDQUFrQixLQUFLTCxLQUF2QjtBQUE2QkUsUUFBQUEsU0FBUyxFQUFDLE1BQXZDO0FBQThDRCxRQUFBQSxPQUFPLEVBQUMsS0FBS0QsS0FBTCxDQUFXQyxPQUFYLEdBQXFCO0FBQTNFO0FBQ0Q7QUFDRjs7QUFFREssRUFBQUEsTUFBTSxHQUFHO0FBQ1AsVUFBTUMsTUFBTSxHQUFHO0FBQ2JDLE1BQUFBLE9BQU8sRUFBQyxLQUFLUixLQUFMLENBQVdFO0FBRE4sS0FBZjtBQUdBLFdBQ0U7QUFBSyxtQkFBVSxlQUFmO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLE9BQ0E7QUFBSSxtQkFBVSxpQkFBZDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSwwQkFBZ0QsS0FBS0YsS0FBTCxDQUFXQyxPQUEzRCxDQURBLEVBRUE7QUFBSSxtQkFBVSxpQkFBZDtBQUFnQyxNQUFBLEtBQUssRUFBRU0sTUFBdkM7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsMENBRkEsRUFHRTtBQUFRLG1CQUFVLFdBQWxCO0FBQThCLE1BQUEsT0FBTyxFQUFFLE1BQUksS0FBS0YsUUFBTCxDQUFjO0FBQUNKLFFBQUFBLE9BQU8sRUFBQyxLQUFLRCxLQUFMLENBQVdDLE9BQVgsR0FBbUIsQ0FBNUI7QUFBOEJDLFFBQUFBLFNBQVMsRUFBQztBQUF4QyxPQUFkLENBQTNDO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLG1CQUhGLEVBSUU7QUFBUSxtQkFBVSxXQUFsQjtBQUE4QixNQUFBLE9BQU8sRUFBRSxLQUFLQyxPQUE1QztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxtQkFKRixDQURGO0FBUUQ7O0FBakN5Qjs7ZUFvQ2JQLEciLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgQ29tcG9uZW50IH0gZnJvbSAncmVhY3QnO1xuaW1wb3J0IGxvZ28gZnJvbSAnLi9sb2dvLnN2Zyc7XG5pbXBvcnQgJy4vQXBwLmNzcyc7XG5cbmNsYXNzIEFwcCBleHRlbmRzIENvbXBvbmVudCB7XG4gIGNvbnN0cnVjdG9yKHByb3BzKXtcbiAgICBzdXBlcihwcm9wcylcblxuICAgIHRoaXMuc3RhdGU9e1xuICAgICAgY291bnRlcjowLFxuICAgICAgc2hvd0Vycm9yIDogJ25vbmUnXG4gICAgfVxuXG4gICAgdGhpcy5kZWNyZXNlID0gdGhpcy5kZWNyZXNlLmJpbmQodGhpcyk7XG4gIH1cblxuICBkZWNyZXNlKCl7XG4gICAgaWYodGhpcy5zdGF0ZS5jb3VudGVyPT0wKXtcbiAgICAgIHRoaXMuc2V0U3RhdGUoey4uLnRoaXMuc3RhdGUsc2hvd0Vycm9yOlwiaW5saW5lXCJ9KVxuICAgIH1cbiAgICBlbHNle1xuICAgICAgdGhpcy5zZXRTdGF0ZSh7Li4udGhpcy5zdGF0ZSxzaG93RXJyb3I6XCJub25lXCIsY291bnRlcjp0aGlzLnN0YXRlLmNvdW50ZXIgLSAxfSlcbiAgICB9XG4gIH1cblxuICByZW5kZXIoKSB7XG4gICAgY29uc3Qgc3R5bGVzID0ge1xuICAgICAgZGlzcGxheTp0aGlzLnN0YXRlLnNob3dFcnJvclxuICAgIH1cbiAgICByZXR1cm4gKFxuICAgICAgPGRpdiBkYXRhLXRlc3Q9XCJjb21wb25lbnQtQXBwXCI+XG4gICAgICA8aDEgZGF0YS10ZXN0PVwiY291bnRlci1kaXNwbGF5XCI+VGhlIGNvdW50ZXIgaXMge3RoaXMuc3RhdGUuY291bnRlcn08L2gxPlxuICAgICAgPGgzIGRhdGEtdGVzdD1cImVycm9yLWNvbXBvbmVudFwiIHN0eWxlPXtzdHlsZXN9PlRoZSBjb3VudGVyIGNhbiBub3QgZ28gIGJlbG93IDAuPC9oMz5cbiAgICAgICAgPGJ1dHRvbiBkYXRhLXRlc3Q9XCJpbmNyZW1lbnRcIiBvbkNsaWNrPXsoKT0+dGhpcy5zZXRTdGF0ZSh7Y291bnRlcjp0aGlzLnN0YXRlLmNvdW50ZXIrMSxzaG93RXJyb3I6J25vbmUnfSl9PkluY3JlbWVudDwvYnV0dG9uPlxuICAgICAgICA8YnV0dG9uIGRhdGEtdGVzdD1cImRlY3JlbWVudFwiIG9uQ2xpY2s9e3RoaXMuZGVjcmVzZX0+RGVjcmVtZW50PC9idXR0b24+XG4gICAgICA8L2Rpdj5cbiAgICApO1xuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IEFwcDtcbiJdfQ==
