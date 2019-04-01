@@ -1,0 +1,38 @@
+afb65666805f3804501b314a98c3e62d
+"use strict";
+
+var _interopRequireDefault = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _objectSpread2 = _interopRequireDefault(require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/objectSpread"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _enzyme = require("enzyme");
+
+var _GuessWord = _interopRequireDefault(require("./GuessWord"));
+
+var _testUtil = require("../test/testUtil");
+
+var _jsxFileName = "/home/jia/Desktop/tests/src/GuessWord.test.js";
+const defaultProps = {
+  guessedWords: [{
+    guessedWord: 'train',
+    letterMatchCount: 3
+  }]
+};
+
+const setup = (props = {}) => {
+  const setupProps = (0, _objectSpread2.default)({}, defaultProps, props);
+  return (0, _enzyme.shallow)(_react.default.createElement(_GuessWord.default, Object.assign({}, setupProps, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: void 0
+  })));
+};
+
+test('should not throw warning with expected props', () => {
+  (0, _testUtil.checkProps)(defaultProps, _GuessWord.default);
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkd1ZXNzV29yZC50ZXN0LmpzIl0sIm5hbWVzIjpbImRlZmF1bHRQcm9wcyIsImd1ZXNzZWRXb3JkcyIsImd1ZXNzZWRXb3JkIiwibGV0dGVyTWF0Y2hDb3VudCIsInNldHVwIiwicHJvcHMiLCJzZXR1cFByb3BzIiwidGVzdCIsIkd1ZXNzV29yZCJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7O0FBQ0E7O0FBRUE7O0FBQ0E7OztBQUVBLE1BQU1BLFlBQVksR0FBRztBQUNqQkMsRUFBQUEsWUFBWSxFQUFFLENBQUM7QUFDWEMsSUFBQUEsV0FBVyxFQUFFLE9BREY7QUFFWEMsSUFBQUEsZ0JBQWdCLEVBQUU7QUFGUCxHQUFEO0FBREcsQ0FBckI7O0FBT0EsTUFBTUMsS0FBSyxHQUFHLENBQUNDLEtBQUssR0FBRyxFQUFULEtBQWdCO0FBQzFCLFFBQU1DLFVBQVUsbUNBQVFOLFlBQVIsRUFBeUJLLEtBQXpCLENBQWhCO0FBQ0EsU0FBTyxxQkFBUSw2QkFBQyxrQkFBRCxvQkFBZUMsVUFBZjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxLQUFSLENBQVA7QUFDSCxDQUhEOztBQUtBQyxJQUFJLENBQUMsOENBQUQsRUFBaUQsTUFBTTtBQUN2RCw0QkFBV1AsWUFBWCxFQUF5QlEsa0JBQXpCO0FBQ0gsQ0FGRyxDQUFKIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IHNoYWxsb3cgfSBmcm9tICdlbnp5bWUnO1xuXG5pbXBvcnQgR3Vlc3NXb3JkIGZyb20gJy4vR3Vlc3NXb3JkJztcbmltcG9ydCB7IGZpbmRCeVRlc3RBdHRyLCBjaGVja1Byb3BzIH0gZnJvbSAnLi4vdGVzdC90ZXN0VXRpbCc7XG5cbmNvbnN0IGRlZmF1bHRQcm9wcyA9IHtcbiAgICBndWVzc2VkV29yZHM6IFt7XG4gICAgICAgIGd1ZXNzZWRXb3JkOiAndHJhaW4nLFxuICAgICAgICBsZXR0ZXJNYXRjaENvdW50OiAzXG4gICAgfV1cbn1cblxuY29uc3Qgc2V0dXAgPSAocHJvcHMgPSB7fSkgPT4ge1xuICAgIGNvbnN0IHNldHVwUHJvcHMgPSB7IC4uLmRlZmF1bHRQcm9wcywgLi4ucHJvcHMgfTtcbiAgICByZXR1cm4gc2hhbGxvdyg8R3Vlc3NXb3JkIHsuLi5zZXR1cFByb3BzfSAvPilcbn1cblxudGVzdCgnc2hvdWxkIG5vdCB0aHJvdyB3YXJuaW5nIHdpdGggZXhwZWN0ZWQgcHJvcHMnLCAoKSA9PiB7XG4gICAgY2hlY2tQcm9wcyhkZWZhdWx0UHJvcHMsIEd1ZXNzV29yZClcbn0pXG4iXX0=

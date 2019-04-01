@@ -1,0 +1,1 @@
+{"version":3,"sources":["GuessWord.test.js"],"names":[],"mappings":";;;;AAAA;;AACA;;AAEA","sourcesContent":["import React from 'react';\nimport { shallow } from 'enzyme';\n\nimport GuessWord from './GuessWord';"]}

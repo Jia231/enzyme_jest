@@ -1,0 +1,36 @@
+60c604bb36526d8d3e3c5d8fa09e57ae
+"use strict";
+
+var _interopRequireDefault = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _objectSpread2 = _interopRequireDefault(require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/objectSpread"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _enzyme = require("enzyme");
+
+var _GuessWord = _interopRequireDefault(require("./GuessWord"));
+
+var _testUtil = require("../test/testUtil");
+
+var _jsxFileName = "/home/jia/Desktop/tests/src/GuessWord.test.js";
+const defaultProps = {
+  guessedWords: [{
+    guessedWord: 'train',
+    letterMatchCount: 3
+  }]
+};
+
+const setup = (props = {}) => {
+  const setupProps = (0, _objectSpread2.default)({}, defaultProps, props);
+  return (0, _enzyme.shallow)(_react.default.createElement(_GuessWord.default, Object.assign({}, setupProps, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: void 0
+  })));
+};
+
+test('should not throw warning with expected props', () => {});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkd1ZXNzV29yZC50ZXN0LmpzIl0sIm5hbWVzIjpbImRlZmF1bHRQcm9wcyIsImd1ZXNzZWRXb3JkcyIsImd1ZXNzZWRXb3JkIiwibGV0dGVyTWF0Y2hDb3VudCIsInNldHVwIiwicHJvcHMiLCJzZXR1cFByb3BzIiwidGVzdCJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7O0FBQ0E7O0FBRUE7O0FBQ0E7OztBQUVBLE1BQU1BLFlBQVksR0FBRztBQUNqQkMsRUFBQUEsWUFBWSxFQUFFLENBQ1Y7QUFBRUMsSUFBQUEsV0FBVyxFQUFFLE9BQWY7QUFBd0JDLElBQUFBLGdCQUFnQixFQUFFO0FBQTFDLEdBRFU7QUFERyxDQUFyQjs7QUFNQSxNQUFNQyxLQUFLLEdBQUcsQ0FBQ0MsS0FBSyxHQUFHLEVBQVQsS0FBZ0I7QUFDMUIsUUFBTUMsVUFBVSxtQ0FBUU4sWUFBUixFQUF5QkssS0FBekIsQ0FBaEI7QUFDQSxTQUFPLHFCQUFRLDZCQUFDLGtCQUFELG9CQUFlQyxVQUFmO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLEtBQVIsQ0FBUDtBQUNILENBSEQ7O0FBS0FDLElBQUksQ0FBQyw4Q0FBRCxFQUFpRCxNQUFNLENBRTFELENBRkcsQ0FBSiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgeyBzaGFsbG93IH0gZnJvbSAnZW56eW1lJztcblxuaW1wb3J0IEd1ZXNzV29yZCBmcm9tICcuL0d1ZXNzV29yZCc7XG5pbXBvcnQgeyBmaW5kQnlUZXN0QXR0ciwgY2hlY2tQcm9wcyB9IGZyb20gJy4uL3Rlc3QvdGVzdFV0aWwnO1xuXG5jb25zdCBkZWZhdWx0UHJvcHMgPSB7XG4gICAgZ3Vlc3NlZFdvcmRzOiBbXG4gICAgICAgIHsgZ3Vlc3NlZFdvcmQ6ICd0cmFpbicsIGxldHRlck1hdGNoQ291bnQ6IDMgfVxuICAgIF1cbn1cblxuY29uc3Qgc2V0dXAgPSAocHJvcHMgPSB7fSkgPT4ge1xuICAgIGNvbnN0IHNldHVwUHJvcHMgPSB7IC4uLmRlZmF1bHRQcm9wcywgLi4ucHJvcHMgfTtcbiAgICByZXR1cm4gc2hhbGxvdyg8R3Vlc3NXb3JkIHsuLi5zZXR1cFByb3BzfSAvPilcbn1cblxudGVzdCgnc2hvdWxkIG5vdCB0aHJvdyB3YXJuaW5nIHdpdGggZXhwZWN0ZWQgcHJvcHMnLCAoKSA9PiB7XG5cbn0pXG4iXX0=

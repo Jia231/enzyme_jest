@@ -1,0 +1,35 @@
+79616b2c74b29bba7de430cc1f6fc805
+"use strict";
+
+var _interopRequireDefault = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _jsxFileName = "/home/jia/Desktop/tests/src/GuessWord.js";
+
+const GuessWord = props => {
+  return _react.default.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: void 0
+  });
+};
+
+GuessWord.propTypes = {
+  guessedWords: _propTypes.default.arrayOf(_propTypes.default.shape({
+    guessedWord: _propTypes.default.string.isRequired,
+    letterMatchCount: _propTypes.default.number.isRequired
+  })).isRequired
+};
+var _default = GuessWord;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkd1ZXNzV29yZC5qcyJdLCJuYW1lcyI6WyJHdWVzc1dvcmQiLCJwcm9wcyIsInByb3BUeXBlcyIsImd1ZXNzZWRXb3JkcyIsIlByb3BUeXBlcyIsImFycmF5T2YiLCJzaGFwZSIsImd1ZXNzZWRXb3JkIiwic3RyaW5nIiwiaXNSZXF1aXJlZCIsImxldHRlck1hdGNoQ291bnQiLCJudW1iZXIiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFBOztBQUNBOzs7O0FBRUEsTUFBTUEsU0FBUyxHQUFJQyxLQUFELElBQVc7QUFDekIsU0FDSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxJQURKO0FBS0gsQ0FORDs7QUFRQUQsU0FBUyxDQUFDRSxTQUFWLEdBQXNCO0FBQ2xCQyxFQUFBQSxZQUFZLEVBQUVDLG1CQUFVQyxPQUFWLENBQ1ZELG1CQUFVRSxLQUFWLENBQWdCO0FBQ1pDLElBQUFBLFdBQVcsRUFBRUgsbUJBQVVJLE1BQVYsQ0FBaUJDLFVBRGxCO0FBRVpDLElBQUFBLGdCQUFnQixFQUFFTixtQkFBVU8sTUFBVixDQUFpQkY7QUFGdkIsR0FBaEIsQ0FEVSxFQUtaQTtBQU5nQixDQUF0QjtlQVVlVCxTIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xuaW1wb3J0IFByb3BUeXBlcyBmcm9tICdwcm9wLXR5cGVzJztcblxuY29uc3QgR3Vlc3NXb3JkID0gKHByb3BzKSA9PiB7XG4gICAgcmV0dXJuIChcbiAgICAgICAgPGRpdj5cblxuICAgICAgICA8L2Rpdj5cbiAgICApXG59XG5cbkd1ZXNzV29yZC5wcm9wVHlwZXMgPSB7XG4gICAgZ3Vlc3NlZFdvcmRzOiBQcm9wVHlwZXMuYXJyYXlPZihcbiAgICAgICAgUHJvcFR5cGVzLnNoYXBlKHtcbiAgICAgICAgICAgIGd1ZXNzZWRXb3JkOiBQcm9wVHlwZXMuc3RyaW5nLmlzUmVxdWlyZWQsXG4gICAgICAgICAgICBsZXR0ZXJNYXRjaENvdW50OiBQcm9wVHlwZXMubnVtYmVyLmlzUmVxdWlyZWRcbiAgICAgICAgfSlcbiAgICApLmlzUmVxdWlyZWRcblxufVxuXG5leHBvcnQgZGVmYXVsdCBHdWVzc1dvcmRcbiJdfQ==

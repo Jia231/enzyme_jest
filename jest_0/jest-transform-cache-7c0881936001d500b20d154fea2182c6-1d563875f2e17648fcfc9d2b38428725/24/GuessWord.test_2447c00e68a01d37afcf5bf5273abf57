@@ -1,0 +1,26 @@
+6147f30cae0b0525b3e4ed9aa2dd149d
+"use strict";
+
+var _interopRequireDefault = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _objectSpread2 = _interopRequireDefault(require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/objectSpread"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _enzyme = require("enzyme");
+
+var _GuessWord = _interopRequireDefault(require("./GuessWord"));
+
+const defaultProps = {
+  guessedWords: [{
+    guessedWord: 'train',
+    letterMatchCount: 3
+  }]
+};
+
+const setup = (props = {}) => {
+  const setupProps = (0, _objectSpread2.default)({}, defaultProps, props);
+};
+
+test('should not throw warning with expected props', () => {});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkd1ZXNzV29yZC50ZXN0LmpzIl0sIm5hbWVzIjpbImRlZmF1bHRQcm9wcyIsImd1ZXNzZWRXb3JkcyIsImd1ZXNzZWRXb3JkIiwibGV0dGVyTWF0Y2hDb3VudCIsInNldHVwIiwicHJvcHMiLCJzZXR1cFByb3BzIiwidGVzdCJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7O0FBQ0E7O0FBRUE7O0FBRUEsTUFBTUEsWUFBWSxHQUFHO0FBQ2pCQyxFQUFBQSxZQUFZLEVBQUUsQ0FDVjtBQUFFQyxJQUFBQSxXQUFXLEVBQUUsT0FBZjtBQUF3QkMsSUFBQUEsZ0JBQWdCLEVBQUU7QUFBMUMsR0FEVTtBQURHLENBQXJCOztBQU1BLE1BQU1DLEtBQUssR0FBRyxDQUFDQyxLQUFLLEdBQUcsRUFBVCxLQUFnQjtBQUMxQixRQUFNQyxVQUFVLG1DQUFRTixZQUFSLEVBQXlCSyxLQUF6QixDQUFoQjtBQUNILENBRkQ7O0FBSUFFLElBQUksQ0FBQyw4Q0FBRCxFQUFpRCxNQUFNLENBRTFELENBRkcsQ0FBSiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgeyBzaGFsbG93IH0gZnJvbSAnZW56eW1lJztcblxuaW1wb3J0IEd1ZXNzV29yZCBmcm9tICcuL0d1ZXNzV29yZCc7XG5cbmNvbnN0IGRlZmF1bHRQcm9wcyA9IHtcbiAgICBndWVzc2VkV29yZHM6IFtcbiAgICAgICAgeyBndWVzc2VkV29yZDogJ3RyYWluJywgbGV0dGVyTWF0Y2hDb3VudDogMyB9XG4gICAgXVxufVxuXG5jb25zdCBzZXR1cCA9IChwcm9wcyA9IHt9KSA9PiB7XG4gICAgY29uc3Qgc2V0dXBQcm9wcyA9IHsgLi4uZGVmYXVsdFByb3BzLCAuLi5wcm9wcyB9XG59XG5cbnRlc3QoJ3Nob3VsZCBub3QgdGhyb3cgd2FybmluZyB3aXRoIGV4cGVjdGVkIHByb3BzJywgKCkgPT4ge1xuXG59KVxuIl19

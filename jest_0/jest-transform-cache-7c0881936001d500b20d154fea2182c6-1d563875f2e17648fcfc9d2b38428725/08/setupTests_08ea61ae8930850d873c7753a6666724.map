@@ -1,0 +1,1 @@
+{"version":3,"sources":["setupTests.js"],"names":["Enzyme","configure","adapter","EnzymeAdapter"],"mappings":";;;;AAAA;;AACA;;AAIAA,gBAAOC,SAAP,CAAiB;AAAEC,EAAAA,OAAO,EAAE,IAAIC,2BAAJ;AAAX,CAAjB","sourcesContent":["import EnzymeAdapter from 'enzyme-adapter-react-16';\nimport Enzyme from 'enzyme'\n\n\n\nEnzyme.configure({ adapter: new EnzymeAdapter() })\n"]}

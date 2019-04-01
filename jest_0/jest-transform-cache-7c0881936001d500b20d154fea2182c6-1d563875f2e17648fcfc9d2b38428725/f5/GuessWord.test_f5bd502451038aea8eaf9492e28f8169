@@ -1,0 +1,19 @@
+c25f0ec47f241027b736f896a2577b78
+"use strict";
+
+var _interopRequireDefault = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _react = _interopRequireDefault(require("react"));
+
+var _enzyme = require("enzyme");
+
+var _GuessWord = _interopRequireDefault(require("./GuessWord"));
+
+const defaultProps = {
+  guessedWords: [{
+    guessedWord: 'train',
+    letterMatchCount: 3
+  }]
+};
+test('should not throw warning with expected props', () => {});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkd1ZXNzV29yZC50ZXN0LmpzIl0sIm5hbWVzIjpbImRlZmF1bHRQcm9wcyIsImd1ZXNzZWRXb3JkcyIsImd1ZXNzZWRXb3JkIiwibGV0dGVyTWF0Y2hDb3VudCIsInRlc3QiXSwibWFwcGluZ3MiOiI7Ozs7QUFBQTs7QUFDQTs7QUFFQTs7QUFFQSxNQUFNQSxZQUFZLEdBQUc7QUFDakJDLEVBQUFBLFlBQVksRUFBRSxDQUNWO0FBQUVDLElBQUFBLFdBQVcsRUFBRSxPQUFmO0FBQXdCQyxJQUFBQSxnQkFBZ0IsRUFBRTtBQUExQyxHQURVO0FBREcsQ0FBckI7QUFNQUMsSUFBSSxDQUFDLDhDQUFELEVBQWlELE1BQU0sQ0FFMUQsQ0FGRyxDQUFKIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IHNoYWxsb3cgfSBmcm9tICdlbnp5bWUnO1xuXG5pbXBvcnQgR3Vlc3NXb3JkIGZyb20gJy4vR3Vlc3NXb3JkJztcblxuY29uc3QgZGVmYXVsdFByb3BzID0ge1xuICAgIGd1ZXNzZWRXb3JkczogW1xuICAgICAgICB7IGd1ZXNzZWRXb3JkOiAndHJhaW4nLCBsZXR0ZXJNYXRjaENvdW50OiAzIH1cbiAgICBdXG59XG5cbnRlc3QoJ3Nob3VsZCBub3QgdGhyb3cgd2FybmluZyB3aXRoIGV4cGVjdGVkIHByb3BzJywgKCkgPT4ge1xuXG59KVxuIl19

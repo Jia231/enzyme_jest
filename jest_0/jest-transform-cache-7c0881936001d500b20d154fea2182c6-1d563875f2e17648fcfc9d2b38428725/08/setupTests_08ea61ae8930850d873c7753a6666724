@@ -1,0 +1,13 @@
+df5db6faf9ac694ecf312bf34616c34a
+"use strict";
+
+var _interopRequireDefault = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _enzymeAdapterReact = _interopRequireDefault(require("enzyme-adapter-react-16"));
+
+var _enzyme = _interopRequireDefault(require("enzyme"));
+
+_enzyme.default.configure({
+  adapter: new _enzymeAdapterReact.default()
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNldHVwVGVzdHMuanMiXSwibmFtZXMiOlsiRW56eW1lIiwiY29uZmlndXJlIiwiYWRhcHRlciIsIkVuenltZUFkYXB0ZXIiXSwibWFwcGluZ3MiOiI7Ozs7QUFBQTs7QUFDQTs7QUFJQUEsZ0JBQU9DLFNBQVAsQ0FBaUI7QUFBRUMsRUFBQUEsT0FBTyxFQUFFLElBQUlDLDJCQUFKO0FBQVgsQ0FBakIiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgRW56eW1lQWRhcHRlciBmcm9tICdlbnp5bWUtYWRhcHRlci1yZWFjdC0xNic7XG5pbXBvcnQgRW56eW1lIGZyb20gJ2VuenltZSdcblxuXG5cbkVuenltZS5jb25maWd1cmUoeyBhZGFwdGVyOiBuZXcgRW56eW1lQWRhcHRlcigpIH0pXG4iXX0=

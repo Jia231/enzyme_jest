@@ -1,0 +1,35 @@
+3ba62cb78381d8588ffddce5c3734235
+"use strict";
+
+var _interopRequireDefault = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _jsxFileName = "/home/jia/Desktop/tests/src/GuessWord.js";
+
+const GuessWord = props => {
+  return _react.default.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: void 0
+  });
+};
+
+GuessWord.propTypes = {
+  guessedWords: PropTypes.arrayOf(PropTypes.shape({
+    guessedWord: PropTypes.string.isRequired,
+    letterMatchCount: PropTypes.number.isRequired
+  })).isRequired
+};
+var _default = GuessWord;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkd1ZXNzV29yZC5qcyJdLCJuYW1lcyI6WyJHdWVzc1dvcmQiLCJwcm9wcyIsInByb3BUeXBlcyIsImd1ZXNzZWRXb3JkcyIsIlByb3BUeXBlcyIsImFycmF5T2YiLCJzaGFwZSIsImd1ZXNzZWRXb3JkIiwic3RyaW5nIiwiaXNSZXF1aXJlZCIsImxldHRlck1hdGNoQ291bnQiLCJudW1iZXIiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFBOztBQUNBOzs7O0FBRUEsTUFBTUEsU0FBUyxHQUFJQyxLQUFELElBQVc7QUFDekIsU0FDSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxJQURKO0FBS0gsQ0FORDs7QUFRQUQsU0FBUyxDQUFDRSxTQUFWLEdBQXNCO0FBQ2xCQyxFQUFBQSxZQUFZLEVBQUVDLFNBQVMsQ0FBQ0MsT0FBVixDQUNWRCxTQUFTLENBQUNFLEtBQVYsQ0FBZ0I7QUFDWkMsSUFBQUEsV0FBVyxFQUFFSCxTQUFTLENBQUNJLE1BQVYsQ0FBaUJDLFVBRGxCO0FBRVpDLElBQUFBLGdCQUFnQixFQUFFTixTQUFTLENBQUNPLE1BQVYsQ0FBaUJGO0FBRnZCLEdBQWhCLENBRFUsRUFLWkE7QUFOZ0IsQ0FBdEI7ZUFVZVQsUyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCdcbmltcG9ydCBwcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcyc7XG5cbmNvbnN0IEd1ZXNzV29yZCA9IChwcm9wcykgPT4ge1xuICAgIHJldHVybiAoXG4gICAgICAgIDxkaXY+XG5cbiAgICAgICAgPC9kaXY+XG4gICAgKVxufVxuXG5HdWVzc1dvcmQucHJvcFR5cGVzID0ge1xuICAgIGd1ZXNzZWRXb3JkczogUHJvcFR5cGVzLmFycmF5T2YoXG4gICAgICAgIFByb3BUeXBlcy5zaGFwZSh7XG4gICAgICAgICAgICBndWVzc2VkV29yZDogUHJvcFR5cGVzLnN0cmluZy5pc1JlcXVpcmVkLFxuICAgICAgICAgICAgbGV0dGVyTWF0Y2hDb3VudDogUHJvcFR5cGVzLm51bWJlci5pc1JlcXVpcmVkXG4gICAgICAgIH0pXG4gICAgKS5pc1JlcXVpcmVkXG5cbn1cblxuZXhwb3J0IGRlZmF1bHQgR3Vlc3NXb3JkXG4iXX0=
