@@ -1,0 +1,121 @@
+e06d28fdc8404a95ec23409364216796
+"use strict";
+
+var _interopRequireDefault = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _jsxFileName = "/home/jia/Desktop/tests/src/GuessWord.js";
+
+const GuessWord = props => {
+  let content;
+
+  if (props.guessedWords.length === 0) {
+    content = _react.default.createElement("span", {
+      "data-test": "component-instructions",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      },
+      __self: void 0
+    }, "Try to guess the secret word!");
+  } else {
+    const guessedWordRow = props.guessedWords.map((word, index) => _react.default.createElement("tr", {
+      "data-test": "guessed-word",
+      key: index,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      },
+      __self: void 0
+    }, _react.default.createElement("td", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16
+      },
+      __self: void 0
+    }, word.guessedWord), _react.default.createElement("td", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
+      },
+      __self: void 0
+    }, word.letterMatchCount)));
+    content = _react.default.createElement("div", {
+      "data-test": "guessed-words",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: void 0
+    }, _react.default.createElement("h3", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
+      },
+      __self: void 0
+    }, "Guessed Words"), _react.default.createElement("table", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: void 0
+    }, _react.default.createElement("thead", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25
+      },
+      __self: void 0
+    }, _react.default.createElement("tr", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: void 0
+    }, _react.default.createElement("th", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
+      },
+      __self: void 0
+    }, "Guess"), _react.default.createElement("th", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
+      },
+      __self: void 0
+    }, "Matching Letters"))), _react.default.createElement("tbody", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31
+      },
+      __self: void 0
+    }, guessedWordRow)));
+  }
+
+  return _react.default.createElement("div", {
+    "data-test": "component-guessed-words",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: void 0
+  }, content);
+};
+
+GuessWord.propTypes = {
+  guessedWords: _propTypes.default.arrayOf(_propTypes.default.shape({
+    guessedWord: _propTypes.default.string.isRequired,
+    letterMatchCount: _propTypes.default.number.isRequired
+  })).isRequired
+};
+var _default = GuessWord;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkd1ZXNzV29yZC5qcyJdLCJuYW1lcyI6WyJHdWVzc1dvcmQiLCJwcm9wcyIsImNvbnRlbnQiLCJndWVzc2VkV29yZHMiLCJsZW5ndGgiLCJndWVzc2VkV29yZFJvdyIsIm1hcCIsIndvcmQiLCJpbmRleCIsImd1ZXNzZWRXb3JkIiwibGV0dGVyTWF0Y2hDb3VudCIsInByb3BUeXBlcyIsImFycmF5T2YiLCJzaGFwZSIsInN0cmluZyIsImlzUmVxdWlyZWQiLCJudW1iZXIiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFBOztBQUNBOzs7O0FBRUEsTUFBTUEsU0FBUyxHQUFJQyxLQUFELElBQVc7QUFDekIsTUFBSUMsT0FBSjs7QUFDQSxNQUFJRCxLQUFLLENBQUNFLFlBQU4sQ0FBbUJDLE1BQW5CLEtBQThCLENBQWxDLEVBQXFDO0FBQ2pDRixJQUFBQSxPQUFPLEdBQ0g7QUFBTSxtQkFBVSx3QkFBaEI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsdUNBREo7QUFLSCxHQU5ELE1BTU87QUFDSCxVQUFNRyxjQUFjLEdBQUdKLEtBQUssQ0FBQ0UsWUFBTixDQUFtQkcsR0FBbkIsQ0FDbkIsQ0FBQ0MsSUFBRCxFQUFPQyxLQUFQLEtBQ0k7QUFBSSxtQkFBVSxjQUFkO0FBQTZCLE1BQUEsR0FBRyxFQUFFQSxLQUFsQztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxPQUNJO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLE9BQUtELElBQUksQ0FBQ0UsV0FBVixDQURKLEVBRUk7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsT0FBS0YsSUFBSSxDQUFDRyxnQkFBVixDQUZKLENBRmUsQ0FBdkI7QUFRQVIsSUFBQUEsT0FBTyxHQUNIO0FBQUssbUJBQVUsZUFBZjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxPQUNJO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLHVCQURKLEVBRUk7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsT0FDSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxPQUNJO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLE9BQ0k7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsZUFESixFQUVJO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLDBCQUZKLENBREosQ0FESixFQU9JO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLE9BQ0tHLGNBREwsQ0FQSixDQUZKLENBREo7QUFnQkg7O0FBQ0QsU0FDSTtBQUFLLGlCQUFVLHlCQUFmO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLEtBQ0tILE9BREwsQ0FESjtBQUtILENBdkNEOztBQXlDQUYsU0FBUyxDQUFDVyxTQUFWLEdBQXNCO0FBQ2xCUixFQUFBQSxZQUFZLEVBQUVRLG1CQUFVQyxPQUFWLENBQ1ZELG1CQUFVRSxLQUFWLENBQWdCO0FBQ1pKLElBQUFBLFdBQVcsRUFBRUUsbUJBQVVHLE1BQVYsQ0FBaUJDLFVBRGxCO0FBRVpMLElBQUFBLGdCQUFnQixFQUFFQyxtQkFBVUssTUFBVixDQUFpQkQ7QUFGdkIsR0FBaEIsQ0FEVSxFQUtaQTtBQU5nQixDQUF0QjtlQVVlZixTIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xuaW1wb3J0IHByb3BUeXBlcyBmcm9tICdwcm9wLXR5cGVzJztcblxuY29uc3QgR3Vlc3NXb3JkID0gKHByb3BzKSA9PiB7XG4gICAgbGV0IGNvbnRlbnQ7XG4gICAgaWYgKHByb3BzLmd1ZXNzZWRXb3Jkcy5sZW5ndGggPT09IDApIHtcbiAgICAgICAgY29udGVudCA9IChcbiAgICAgICAgICAgIDxzcGFuIGRhdGEtdGVzdD1cImNvbXBvbmVudC1pbnN0cnVjdGlvbnNcIj5cbiAgICAgICAgICAgICAgICBUcnkgdG8gZ3Vlc3MgdGhlIHNlY3JldCB3b3JkIVxuICAgICAgICAgICAgPC9zcGFuPlxuICAgICAgICApXG4gICAgfSBlbHNlIHtcbiAgICAgICAgY29uc3QgZ3Vlc3NlZFdvcmRSb3cgPSBwcm9wcy5ndWVzc2VkV29yZHMubWFwKFxuICAgICAgICAgICAgKHdvcmQsIGluZGV4KSA9PiAoXG4gICAgICAgICAgICAgICAgPHRyIGRhdGEtdGVzdD1cImd1ZXNzZWQtd29yZFwiIGtleT17aW5kZXh9PlxuICAgICAgICAgICAgICAgICAgICA8dGQ+e3dvcmQuZ3Vlc3NlZFdvcmR9PC90ZD5cbiAgICAgICAgICAgICAgICAgICAgPHRkPnt3b3JkLmxldHRlck1hdGNoQ291bnR9PC90ZD5cbiAgICAgICAgICAgICAgICA8L3RyPlxuICAgICAgICAgICAgKVxuICAgICAgICApXG4gICAgICAgIGNvbnRlbnQgPSAoXG4gICAgICAgICAgICA8ZGl2IGRhdGEtdGVzdD1cImd1ZXNzZWQtd29yZHNcIj5cbiAgICAgICAgICAgICAgICA8aDM+R3Vlc3NlZCBXb3JkczwvaDM+XG4gICAgICAgICAgICAgICAgPHRhYmxlPlxuICAgICAgICAgICAgICAgICAgICA8dGhlYWQ+XG4gICAgICAgICAgICAgICAgICAgICAgICA8dHI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRoPkd1ZXNzPC90aD5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGg+TWF0Y2hpbmcgTGV0dGVyczwvdGg+XG4gICAgICAgICAgICAgICAgICAgICAgICA8L3RyPlxuICAgICAgICAgICAgICAgICAgICA8L3RoZWFkPlxuICAgICAgICAgICAgICAgICAgICA8dGJvZHk+XG4gICAgICAgICAgICAgICAgICAgICAgICB7Z3Vlc3NlZFdvcmRSb3d9XG4gICAgICAgICAgICAgICAgICAgIDwvdGJvZHk+XG4gICAgICAgICAgICAgICAgPC90YWJsZT5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICApXG4gICAgfVxuICAgIHJldHVybiAoXG4gICAgICAgIDxkaXYgZGF0YS10ZXN0PVwiY29tcG9uZW50LWd1ZXNzZWQtd29yZHNcIj5cbiAgICAgICAgICAgIHtjb250ZW50fVxuICAgICAgICA8L2Rpdj5cbiAgICApXG59XG5cbkd1ZXNzV29yZC5wcm9wVHlwZXMgPSB7XG4gICAgZ3Vlc3NlZFdvcmRzOiBwcm9wVHlwZXMuYXJyYXlPZihcbiAgICAgICAgcHJvcFR5cGVzLnNoYXBlKHtcbiAgICAgICAgICAgIGd1ZXNzZWRXb3JkOiBwcm9wVHlwZXMuc3RyaW5nLmlzUmVxdWlyZWQsXG4gICAgICAgICAgICBsZXR0ZXJNYXRjaENvdW50OiBwcm9wVHlwZXMubnVtYmVyLmlzUmVxdWlyZWRcbiAgICAgICAgfSlcbiAgICApLmlzUmVxdWlyZWRcblxufVxuXG5leHBvcnQgZGVmYXVsdCBHdWVzc1dvcmRcbiJdfQ==
