@@ -1,0 +1,33 @@
+dc128b249dcfeb522357f3387fd4aa24
+"use strict";
+
+var _interopRequireDefault = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+
+var _react = _interopRequireDefault(require("react"));
+
+var _enzyme = _interopRequireWildcard(require("enzyme"));
+
+var _enzymeAdapterReact = _interopRequireDefault(require("enzyme-adapter-react-16"));
+
+var _Congrats = _interopRequireDefault(require("./Congrats"));
+
+var _jsxFileName = "/home/jia/Desktop/tests/src/Congrats.test.js";
+
+_enzyme.default.configure({
+  adapter: new _enzymeAdapterReact.default()
+});
+
+const setup = (props = {}) => {
+  return (0, _enzyme.shallow)(_react.default.createElement(_Congrats.default, Object.assign({}, props, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: void 0
+  })));
+};
+
+test('should render without error', () => {});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkNvbmdyYXRzLnRlc3QuanMiXSwibmFtZXMiOlsiRW56eW1lIiwiY29uZmlndXJlIiwiYWRhcHRlciIsIkVuenltZUFkYXB0ZXIiLCJzZXR1cCIsInByb3BzIiwidGVzdCJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7O0FBQ0E7O0FBQ0E7O0FBRUE7Ozs7QUFFQUEsZ0JBQU9DLFNBQVAsQ0FBaUI7QUFBRUMsRUFBQUEsT0FBTyxFQUFFLElBQUlDLDJCQUFKO0FBQVgsQ0FBakI7O0FBRUEsTUFBTUMsS0FBSyxHQUFHLENBQUNDLEtBQUssR0FBRyxFQUFULEtBQWdCO0FBQzFCLFNBQU8scUJBQVEsNkJBQUMsaUJBQUQsb0JBQWNBLEtBQWQ7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsS0FBUixDQUFQO0FBQ0gsQ0FGRDs7QUFJQUMsSUFBSSxDQUFDLDZCQUFELEVBQWdDLE1BQU0sQ0FFekMsQ0FGRyxDQUFKIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xuaW1wb3J0IEVuenltZSwgeyBzaGFsbG93IH0gZnJvbSAnZW56eW1lJ1xuaW1wb3J0IEVuenltZUFkYXB0ZXIgZnJvbSAnZW56eW1lLWFkYXB0ZXItcmVhY3QtMTYnO1xuXG5pbXBvcnQgQ29uZ3JhdHMgZnJvbSAnLi9Db25ncmF0cyc7XG5cbkVuenltZS5jb25maWd1cmUoeyBhZGFwdGVyOiBuZXcgRW56eW1lQWRhcHRlcigpIH0pXG5cbmNvbnN0IHNldHVwID0gKHByb3BzID0ge30pID0+IHtcbiAgICByZXR1cm4gc2hhbGxvdyg8Q29uZ3JhdHMgey4uLnByb3BzfSAvPilcbn1cblxudGVzdCgnc2hvdWxkIHJlbmRlciB3aXRob3V0IGVycm9yJywgKCkgPT4ge1xuXG59KVxuIl19

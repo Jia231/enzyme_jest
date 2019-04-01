@@ -1,0 +1,17 @@
+9dae4d3d66c419af4b1bc93d234be932
+"use strict";
+
+var _interopRequireWildcard = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+
+var _interopRequireDefault = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _react = _interopRequireDefault(require("react"));
+
+var _enzyme = _interopRequireWildcard(require("enzyme"));
+
+var _enzymeAdapterReact = _interopRequireDefault(require("enzyme-adapter-react-16"));
+
+_enzyme.default.configure({
+  adapter: new _enzymeAdapterReact.default()
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkNvbmdyYXRzLnRlc3QuanMiXSwibmFtZXMiOlsiRW56eW1lIiwiY29uZmlndXJlIiwiYWRhcHRlciIsIkVuenltZUFkYXB0ZXIiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBOztBQUNBOztBQUNBOztBQUVBQSxnQkFBT0MsU0FBUCxDQUFpQjtBQUFFQyxFQUFBQSxPQUFPLEVBQUUsSUFBSUMsMkJBQUo7QUFBWCxDQUFqQiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCdcbmltcG9ydCBFbnp5bWUsIHsgc2hhbGxvdyB9IGZyb20gJ2VuenltZSdcbmltcG9ydCBFbnp5bWVBZGFwdGVyIGZyb20gJ2VuenltZS1hZGFwdGVyLXJlYWN0LTE2JztcblxuRW56eW1lLmNvbmZpZ3VyZSh7IGFkYXB0ZXI6IG5ldyBFbnp5bWVBZGFwdGVyKCkgfSkiXX0=

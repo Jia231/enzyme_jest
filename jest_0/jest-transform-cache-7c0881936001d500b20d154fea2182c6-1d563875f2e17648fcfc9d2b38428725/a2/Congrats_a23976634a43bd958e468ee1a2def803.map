@@ -1,0 +1,1 @@
+{"version":3,"sources":["Congrats.js"],"names":["Congrats"],"mappings":";;;;;;;;;AAAA;;;;AAEA,SAASA,QAAT,GAAoB;AAClB,SACE;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADF;AAKD;;eAEcA,Q","sourcesContent":["import React from 'react'\n\nfunction Congrats() {\n  return (\n    <div>\n      \n    </div>\n  )\n}\n\nexport default Congrats\n"]}
