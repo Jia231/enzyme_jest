@@ -1,0 +1,1 @@
+{"version":3,"sources":["successReducer.test.js"],"names":["test"],"mappings":";;AAAA;;AACA;;AAEAA,IAAI,CAAC,sCAAD,EAAyC,MAAM,CAElD,CAFG,CAAJ","sourcesContent":["import { actionTypes } from '../actions'\nimport { successReducer } from './successReducer';\n\ntest('should return false on default state', () => {\n\n})\n"]}

@@ -1,0 +1,20 @@
+047de8d5d9aac0189387c87ce62074c4
+"use strict";
+
+var _interopRequireDefault = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _action = require("../action");
+
+var _successReducer = _interopRequireDefault(require("./successReducer"));
+
+test('should return false on default state', () => {
+  const newState = (0, _successReducer.default)(undefined, {});
+  expect(newState).toBe(false);
+});
+test('should return true after receiving CORRECT_GUESS', () => {
+  const newState = (0, _successReducer.default)(undefined, {
+    type: _action.actionTypes.CORRECT_GUESS
+  });
+  expect(newState).toBe(true);
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN1Y2Nlc3NSZWR1Y2VyLnRlc3QuanMiXSwibmFtZXMiOlsidGVzdCIsIm5ld1N0YXRlIiwidW5kZWZpbmVkIiwiZXhwZWN0IiwidG9CZSIsInR5cGUiLCJhY3Rpb25UeXBlcyIsIkNPUlJFQ1RfR1VFU1MiXSwibWFwcGluZ3MiOiI7Ozs7QUFBQTs7QUFDQTs7QUFFQUEsSUFBSSxDQUFDLHNDQUFELEVBQXlDLE1BQU07QUFDL0MsUUFBTUMsUUFBUSxHQUFHLDZCQUFlQyxTQUFmLEVBQTBCLEVBQTFCLENBQWpCO0FBQ0FDLEVBQUFBLE1BQU0sQ0FBQ0YsUUFBRCxDQUFOLENBQWlCRyxJQUFqQixDQUFzQixLQUF0QjtBQUNILENBSEcsQ0FBSjtBQUtBSixJQUFJLENBQUMsa0RBQUQsRUFBcUQsTUFBTTtBQUMzRCxRQUFNQyxRQUFRLEdBQUcsNkJBQWVDLFNBQWYsRUFBMEI7QUFDdkNHLElBQUFBLElBQUksRUFBRUMsb0JBQVlDO0FBRHFCLEdBQTFCLENBQWpCO0FBR0FKLEVBQUFBLE1BQU0sQ0FBQ0YsUUFBRCxDQUFOLENBQWlCRyxJQUFqQixDQUFzQixJQUF0QjtBQUNILENBTEcsQ0FBSiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGFjdGlvblR5cGVzIH0gZnJvbSAnLi4vYWN0aW9uJztcbmltcG9ydCBzdWNjZXNzUmVkdWNlciBmcm9tICcuL3N1Y2Nlc3NSZWR1Y2VyJztcblxudGVzdCgnc2hvdWxkIHJldHVybiBmYWxzZSBvbiBkZWZhdWx0IHN0YXRlJywgKCkgPT4ge1xuICAgIGNvbnN0IG5ld1N0YXRlID0gc3VjY2Vzc1JlZHVjZXIodW5kZWZpbmVkLCB7fSk7XG4gICAgZXhwZWN0KG5ld1N0YXRlKS50b0JlKGZhbHNlKVxufSlcblxudGVzdCgnc2hvdWxkIHJldHVybiB0cnVlIGFmdGVyIHJlY2VpdmluZyBDT1JSRUNUX0dVRVNTJywgKCkgPT4ge1xuICAgIGNvbnN0IG5ld1N0YXRlID0gc3VjY2Vzc1JlZHVjZXIodW5kZWZpbmVkLCB7XG4gICAgICAgIHR5cGU6IGFjdGlvblR5cGVzLkNPUlJFQ1RfR1VFU1NcbiAgICB9KVxuICAgIGV4cGVjdChuZXdTdGF0ZSkudG9CZSh0cnVlKVxufSlcblxuIl19

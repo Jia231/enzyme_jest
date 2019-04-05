@@ -1,0 +1,13 @@
+2b8473758393f98a7f93e4a6af402d01
+"use strict";
+
+var _actions = require("../actions");
+
+var _successReducer = require("./successReducer");
+
+test('should return false on default state', () => {
+  const newState = (0, _successReducer.successReducer)();
+  expect(newState).toBe(false);
+});
+test('should return true after receiving CORRECT_GUESS', () => {});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN1Y2Nlc3NSZWR1Y2VyLnRlc3QuanMiXSwibmFtZXMiOlsidGVzdCIsIm5ld1N0YXRlIiwiZXhwZWN0IiwidG9CZSJdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7QUFDQTs7QUFFQUEsSUFBSSxDQUFDLHNDQUFELEVBQXlDLE1BQU07QUFDL0MsUUFBTUMsUUFBUSxHQUFHLHFDQUFqQjtBQUNBQyxFQUFBQSxNQUFNLENBQUNELFFBQUQsQ0FBTixDQUFpQkUsSUFBakIsQ0FBc0IsS0FBdEI7QUFDSCxDQUhHLENBQUo7QUFLQUgsSUFBSSxDQUFDLGtEQUFELEVBQXFELE1BQU0sQ0FFOUQsQ0FGRyxDQUFKIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgYWN0aW9uVHlwZXMgfSBmcm9tICcuLi9hY3Rpb25zJ1xuaW1wb3J0IHsgc3VjY2Vzc1JlZHVjZXIgfSBmcm9tICcuL3N1Y2Nlc3NSZWR1Y2VyJztcblxudGVzdCgnc2hvdWxkIHJldHVybiBmYWxzZSBvbiBkZWZhdWx0IHN0YXRlJywgKCkgPT4ge1xuICAgIGNvbnN0IG5ld1N0YXRlID0gc3VjY2Vzc1JlZHVjZXIoKTtcbiAgICBleHBlY3QobmV3U3RhdGUpLnRvQmUoZmFsc2UpXG59KVxuXG50ZXN0KCdzaG91bGQgcmV0dXJuIHRydWUgYWZ0ZXIgcmVjZWl2aW5nIENPUlJFQ1RfR1VFU1MnLCAoKSA9PiB7XG5cbn0pXG5cbiJdfQ==

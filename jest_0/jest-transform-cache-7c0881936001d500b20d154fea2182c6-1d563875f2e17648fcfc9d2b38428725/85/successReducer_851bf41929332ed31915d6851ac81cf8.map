@@ -1,0 +1,1 @@
+{"version":3,"sources":["successReducer.js"],"names":["state","action"],"mappings":";;;;;;;eAAe,CAACA,KAAD,EAAQC,MAAR,KAAmB;AAC9B,SAAO,IAAP;AACH,C","sourcesContent":["export default (state, action) => {\n    return null;\n}"]}

@@ -1,0 +1,12 @@
+435d360ef2fe3404651acf3d2b8cf150
+"use strict";
+
+var _actions = require("../actions");
+
+var _successReducer = require("./successReducer");
+
+test('should return false on default state', () => {
+  const newState = (0, _successReducer.successReducer)();
+});
+test('should return true after receiving CORRECT_GUESS', () => {});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN1Y2Nlc3NSZWR1Y2VyLnRlc3QuanMiXSwibmFtZXMiOlsidGVzdCIsIm5ld1N0YXRlIl0sIm1hcHBpbmdzIjoiOztBQUFBOztBQUNBOztBQUVBQSxJQUFJLENBQUMsc0NBQUQsRUFBeUMsTUFBTTtBQUMvQyxRQUFNQyxRQUFRLEdBQUcscUNBQWpCO0FBQ0gsQ0FGRyxDQUFKO0FBSUFELElBQUksQ0FBQyxrREFBRCxFQUFxRCxNQUFNLENBRTlELENBRkcsQ0FBSiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGFjdGlvblR5cGVzIH0gZnJvbSAnLi4vYWN0aW9ucydcbmltcG9ydCB7IHN1Y2Nlc3NSZWR1Y2VyIH0gZnJvbSAnLi9zdWNjZXNzUmVkdWNlcic7XG5cbnRlc3QoJ3Nob3VsZCByZXR1cm4gZmFsc2Ugb24gZGVmYXVsdCBzdGF0ZScsICgpID0+IHtcbiAgICBjb25zdCBuZXdTdGF0ZSA9IHN1Y2Nlc3NSZWR1Y2VyKClcbn0pXG5cbnRlc3QoJ3Nob3VsZCByZXR1cm4gdHJ1ZSBhZnRlciByZWNlaXZpbmcgQ09SUkVDVF9HVUVTUycsICgpID0+IHtcblxufSlcblxuIl19

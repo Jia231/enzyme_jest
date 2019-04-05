@@ -1,0 +1,20 @@
+9408f3833faf21b5b961a1382b7b4809
+"use strict";
+
+var _interopRequireDefault = require("/home/jia/Desktop/tests/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _redux = require("redux");
+
+var _successReducer = _interopRequireDefault(require("./successReducer"));
+
+var _default = (0, _redux.combineReducers)({
+  success: _successReducer.default
+});
+
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbInN1Y2Nlc3MiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFBOztBQUVBOztlQUVlLDRCQUFnQjtBQUMzQkEsRUFBQUEsT0FBTyxFQUFQQTtBQUQyQixDQUFoQixDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY29tYmluZVJlZHVjZXJzIH0gZnJvbSAncmVkdXgnO1xuXG5pbXBvcnQgc3VjY2VzcyBmcm9tICcuL3N1Y2Nlc3NSZWR1Y2VyJztcblxuZXhwb3J0IGRlZmF1bHQgY29tYmluZVJlZHVjZXJzKHtcbiAgICBzdWNjZXNzLFxufSkiXX0=

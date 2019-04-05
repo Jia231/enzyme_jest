@@ -1,0 +1,10 @@
+04252eda3d70cb661af40b0310509051
+"use strict";
+
+var _actions = require("../actions");
+
+var _successReducer = require("./successReducer");
+
+test('should return false on default state', () => {});
+test;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN1Y2Nlc3NSZWR1Y2VyLnRlc3QuanMiXSwibmFtZXMiOlsidGVzdCJdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7QUFDQTs7QUFFQUEsSUFBSSxDQUFDLHNDQUFELEVBQXlDLE1BQU0sQ0FFbEQsQ0FGRyxDQUFKO0FBSUFBLElBQUkiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBhY3Rpb25UeXBlcyB9IGZyb20gJy4uL2FjdGlvbnMnXG5pbXBvcnQgeyBzdWNjZXNzUmVkdWNlciB9IGZyb20gJy4vc3VjY2Vzc1JlZHVjZXInO1xuXG50ZXN0KCdzaG91bGQgcmV0dXJuIGZhbHNlIG9uIGRlZmF1bHQgc3RhdGUnLCAoKSA9PiB7XG5cbn0pXG5cbnRlc3RcbiJdfQ==

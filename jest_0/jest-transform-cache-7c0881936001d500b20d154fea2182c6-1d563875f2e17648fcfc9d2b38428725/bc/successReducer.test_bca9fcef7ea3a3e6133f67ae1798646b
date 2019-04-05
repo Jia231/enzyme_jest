@@ -1,0 +1,9 @@
+23055e454b1798d91f45536108320044
+"use strict";
+
+var _actions = require("../actions");
+
+var _successReducer = require("./successReducer");
+
+test('should return false on default state', () => {});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN1Y2Nlc3NSZWR1Y2VyLnRlc3QuanMiXSwibmFtZXMiOlsidGVzdCJdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7QUFDQTs7QUFFQUEsSUFBSSxDQUFDLHNDQUFELEVBQXlDLE1BQU0sQ0FFbEQsQ0FGRyxDQUFKIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgYWN0aW9uVHlwZXMgfSBmcm9tICcuLi9hY3Rpb25zJ1xuaW1wb3J0IHsgc3VjY2Vzc1JlZHVjZXIgfSBmcm9tICcuL3N1Y2Nlc3NSZWR1Y2VyJztcblxudGVzdCgnc2hvdWxkIHJldHVybiBmYWxzZSBvbiBkZWZhdWx0IHN0YXRlJywgKCkgPT4ge1xuXG59KVxuIl19

@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["success"],"mappings":";;;;;;;;;AAAA;;AAEA;;eAEe,4BAAgB;AAC3BA,EAAAA,OAAO,EAAPA;AAD2B,CAAhB,C","sourcesContent":["import { combineReducers } from 'redux';\n\nimport success from './successReducer';\n\nexport default combineReducers({\n    success,\n})"]}
