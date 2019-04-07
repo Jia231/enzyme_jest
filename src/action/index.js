@@ -1,7 +1,26 @@
+import { getLetterMatchCount } from '../helpers'
+
 export const actionTypes = {
-    CORRECT_GUESS: 'CORRECT_GUESS'
+    CORRECT_GUESS: 'CORRECT_GUESS',
+    GUESS_WORD: 'GUESS_WORD'
 }
 
-export function correctGuess() {
+/*export function correctGuess() {
     return { type: actionTypes.CORRECT_GUESS };
+}*/
+
+export const guessWord = (guessedWord) => {
+    return function (dispach, getState) {
+        const secretWord = getState().secretWord;
+        const letterMatchCount = getLetterMatchCount(guessedWord, secretWord)
+        dispach({
+            type: actionTypes.GUESS_WORD,
+            payload: {
+                guessedWord, letterMatchCount
+            }
+        })
+        if (guessedWord == secretWord) {
+            dispach({ type: actionTypes.CORRECT_GUESS })
+        }
+    }
 }
