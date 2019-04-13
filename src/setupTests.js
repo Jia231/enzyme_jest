@@ -3,4 +3,7 @@ import Enzyme from 'enzyme'
 
 
 
-Enzyme.configure({ adapter: new EnzymeAdapter() })
+Enzyme.configure({
+    disableLifecycleMethods: true,
+    adapter: new EnzymeAdapter()
+})
